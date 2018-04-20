@@ -7,7 +7,7 @@ function postresult(ctx, req, res) {
         res.write("Output : " + reverseString(ctx.query.str));
       break;
       default:
-        res.write("Server only response to POST request");
+        res.write("You are sending " + req.method + " but Server only response to POST request");
       break;
     }
 
