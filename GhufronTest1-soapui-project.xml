@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="3ef71c52-35eb-49fc-85d5-9ce7005b9b23" activeEnvironment="Default" name="GhufronTest1" soapui-version="5.4.0"
+	xmlns:con="http://eviware.com/soapui/config">
+	<con:settings/>
+	<con:interface xsi:type="con:RestService" id="7305e8c7-ce64-4b95-8c92-2e44fd0d14ec" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://wt-9dcfaa12a4683ffc47657c6404ddff80-0.sandbox.auth0-extend.com" type="rest"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<con:settings/>
+		<con:definitionCache/>
+		<con:endpoints>
+			<con:endpoint>https://wt-9dcfaa12a4683ffc47657c6404ddff80-0.sandbox.auth0-extend.com</con:endpoint>
+		</con:endpoints>
+		<con:resource name="Ghufrontask1" path="/ghufrontask1" id="e64329ab-52d0-4d03-8ae5-9155fcc773d2">
+			<con:settings/>
+			<con:parameters>
+				<con:parameter>
+					<con:name>gituser</con:name>
+					<con:value/>
+					<con:style>QUERY</con:style>
+					<con:default/>
+					<con:description xsi:nil="true"/>
+				</con:parameter>
+			</con:parameters>
+			<con:method name="Ghufrontask1 1" id="8b741fbe-3aba-475b-92a4-786e57a7f69b" method="GET">
+				<con:settings/>
+				<con:parameters/>
+				<con:representation type="RESPONSE">
+					<con:mediaType>application/json</con:mediaType>
+					<con:status>200</con:status>
+					<con:params/>
+					<con:element>Response</con:element>
+				</con:representation>
+				<con:request name="Request 1" id="8f57a294-3e7c-4926-95ca-2ddbf29f0c26" mediaType="application/json">
+					<con:settings>
+						<con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+				</con:settings>
+				<con:endpoint>https://wt-9dcfaa12a4683ffc47657c6404ddff80-0.sandbox.auth0-extend.com</con:endpoint>
+				<con:request/>
+				<con:originalUri>https://wt-9dcfaa12a4683ffc47657c6404ddff80-0.sandbox.auth0-extend.com/ghufrontask1</con:originalUri>
+				<con:credentials>
+					<con:authType>No Authorization</con:authType>
+				</con:credentials>
+				<con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+				<con:jmsPropertyConfig/>
+				<con:parameters>
+					<entry key="gituser" value="ghufronalwi"
+						xmlns="http://eviware.com/soapui/config"/>
+					</con:parameters>
+					<con:parameterOrder>
+						<con:entry>gituser</con:entry>
+					</con:parameterOrder>
+				</con:request>
+			</con:method>
+		</con:resource>
+	</con:interface>
+	<con:properties/>
+	<con:wssContainer/>
+	<con:oAuth2ProfileContainer/>
+	<con:oAuth1ProfileContainer/>
+	<con:sensitiveInformation/>
+</con:soapui-project>
